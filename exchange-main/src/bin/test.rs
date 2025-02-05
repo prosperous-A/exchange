@@ -11,9 +11,9 @@ async fn main() {
     let symbol = "BTC-USDT";
     let exchange = "okx_usdt_swap";
     let account = "00";
-    let access_key = "";
-    let secret_key = "";
-    let password = "";
+    let access_key = "660fb70b-2ed1-4ceb-8724-56312d006216";
+    let secret_key = "9EA688B308597E4FA8FCD841F2D2E3DF";
+    let password = "Ydb.15838890945";
     let mut config = ExchangeConfig::new(symbol, access_key, secret_key, password);
     config.account = account.to_string();
     config.exchange = exchange.to_string();
