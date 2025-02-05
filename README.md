@@ -1,2 +1,1 @@
-# exchange
-test1
+cargo run --bin=test

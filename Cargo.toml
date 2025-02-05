@@ -1,0 +1,70 @@
+[package]
+name = "exgs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "0.12.3"
+base58 = "0.2.0"
+chrono = "0.4.35"
+crc32fast = "1.3.1"
+# env_logger = "0.7"
+futures = "0.3.19"
+hmac = "0.12.0"
+log = "0.4.14"
+pnet_datalink = "0.29.0"
+rand = "0.8.0"
+reqwest = { version = "0.11.18", features = [ "json", "rustls-tls-native-roots" , "rustls-tls", "blocking"], default-features = false }
+serde = {version = "1.0", features = ["derive"]}
+serde_json = "1.0.74"
+serde_yaml = "0.8.7"
+sha2 = "0.10.1"
+tokio = {version = "1.35.0", features = ["full"]}
+tokio-tungstenite = {version = "0.21.0", features = ["rustls-tls-native-roots"]}
+tungstenite  = {version = "0.21.0", features = ["rustls-tls-native-roots"]}
+# async-http-proxy ={version = "1.2.5", features = ["runtime-tokio"]}
+url = "2.2.2"
+fast-float = "0.2"
+async-trait = "0.1.58"
+dyn-clone = "1.0.9"
+urlencoding = "2.1.2"
+flate2 = "1.0"
+core_affinity = "0.8.0"
+ryu = "1.0.15"
+# monoio = "0.2.0"
+# sysinfo = "0.29.2"
+# csv = "1.1"
+# hostname = "0.3.1"
+# hyper-tls = "0.5"
+# kanal = "0.1.0-pre8"
+# crossbeam = "0.8.2"
+# tokio-uring = "0.4.0"
+# tokio-util = "0.7.8"
+
+
+ring = "0.17.7"
+ed25519-dalek = "2.1.1"
+# zeromq = {version = "0.3.5", futures=["tokio-runtime", "tcp-transport"]}
+bincode = "1.3.3"
+itoa = "1.0.10"
+shm = "0.1.0"
+sysinfo = "0.29.2"
+hex = "0.4.3"
+tracing = "0.1.40"
+tracing-subscriber = {version = "0.3.18", features=["chrono"]}
+tracing-appender = "0.2.3"
+argh = "0.1"
+socket2 = { version = "0.5.5", features = ["all"] }
+trust-dns-resolver = "0.20.3"
+# mio = {version="0.7", features=["os-poll"]} # you probably need os-poll
+# posixmq = {version="1.0", features=["mio_07"]}
+
+# [dev-dependencies]
+# csv = "1.1"
+# plotters = "0.3"
+
+[lib]
+name = "mylib"
+path = "src/lib.rs"
