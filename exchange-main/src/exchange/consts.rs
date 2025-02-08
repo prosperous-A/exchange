@@ -50,6 +50,8 @@ pub const BITGET_FUTURES_COLO_REST_URL: &str = "https://vip-api.bitget.com";
 pub const BITGET_FUTURES_COLO_WS_PUBLIC_URL: &str = "wss://vip-ws.bitget.com/v2/ws/public";
 pub const BITGET_FUTURES_COLO_WS_PRIVATE_URL: &str = "wss://vip-ws.bitget.com/v2/ws/private";
 
+pub const HYPERLIQUID_MAINNET_API_URL: &str = "https://api.hyperliquid.xyz";
+
 pub const LONG: &str = "long";
 pub const SHORT: &str = "short";
 pub const COVER_LONG: &str = "cover_long";
