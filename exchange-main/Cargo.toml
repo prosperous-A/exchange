@@ -43,8 +43,7 @@ ryu = "1.0.15"
 # crossbeam = "0.8.2"
 # tokio-uring = "0.4.0"
 # tokio-util = "0.7.8"
-
-
+ 
 ring = "0.17.7"
 ed25519-dalek = "2.1.1"
 # zeromq = {version = "0.3.5", futures=["tokio-runtime", "tcp-transport"]}
@@ -60,6 +59,8 @@ argh = "0.1"
 socket2 = { version = "0.5.5", features = ["all"] }
 trust-dns-resolver = "0.20.3"
 hyperliquid_rust_sdk = "0.5.0"
+
+uuid = {version = "1.6.1", features = ["v4"]}
 # mio = {version="0.7", features=["os-poll"]} # you probably need os-poll
 # posixmq = {version="1.0", features=["mio_07"]}
 
